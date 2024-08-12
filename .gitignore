@@ -1,0 +1,45 @@
+### Maven Specific ###
+/target/
+*.class
+*.jar
+*.log
+
+### Gradle Specific ###
+/build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### Visual Studio Code ###
+.vscode/
+
+### macOS Specific ###
+.DS_Store
+
+### Maven Wrapper Files ###
+!.mvn/wrapper/maven-wrapper.jar
